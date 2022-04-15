@@ -1,0 +1,54 @@
+#loginBox{
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 150px auto;
+}
+
+#loginBox ul{
+    list-style: none;
+    text-align: center;
+    position: absolute;
+}
+
+
+#loginBox input{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}
+
+.findPwd{
+    position: relative;
+    left: 350px;
+    top: 110px;
+    color: rgb(90, 90, 90);
+    font-size: 13px;
+}
+
+.loginButton{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 170px;
+    top: 200px;
+    background-color: rgb(203, 189, 255);
+    border: 1px solid white;
+    color: white;
+}
+
+.joinButton{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    top: 200px;
+    background-color: rgb(203, 189, 255);
+    border: 1px solid white;
+    color: white;
+}
+
+.loginButton:hover, .joinButton:hover{
+    background-color: rgb(174, 124, 255);
+}
