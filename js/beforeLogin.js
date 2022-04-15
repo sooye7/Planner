@@ -9,10 +9,8 @@ function clock() {
     var hours = currentDate.getHours();
     var minutes = currentDate.getMinutes();
     var seconds = currentDate.getSeconds();
-    var text=(month+1)+"월"+clockDate+"일"+week[day]+"요일"+(hours<10 ? "0"+hours:hours)+":"+(minuters<10?"0"+minutes:minutes)+":"+(seconds<10?"0"+seconds:seconds);
-    clockTarget.innerText=text;
-    //clockTarget.innerText = `${month+1}월 ${clockDate}일 ${week[day]}요일` +
-    //`${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes }`  : minutes }:${seconds < 10 ? `0${seconds }`  : seconds }`;
+    clockTarget.innerText = `${month+1}월 ${clockDate}일 ${week[day]}요일` +
+    `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes }`  : minutes }:${seconds < 10 ? `0${seconds }`  : seconds }`;
 }
 
 function init() {

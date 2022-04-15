@@ -35,3 +35,25 @@
     opacity: 0.9;
 
 }
+
+#member ul{
+    list-style: none;
+    color: black;
+    text-align: right;
+    background-color: rgb(241, 226, 255);
+}
+#member ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+#member a:link, #member a:visited{
+    font-size: 15px;
+    text-decoration: black;
+    color: black;
+}
+
+#member a:hover{
+    color: white;
+}
