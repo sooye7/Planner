@@ -3,7 +3,7 @@
 }
 #nav ul{
     list-style: none;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(203, 189, 255);
 }
 
 #nav ul li{
@@ -26,6 +26,12 @@
 }
 
 #nav li:hover{
-    background-color: black;
+    background-color: rgb(174, 124, 255);
     color: white;
+}
+
+#middle img {
+    width: 100%;
+    opacity: 0.9;
+
 }
