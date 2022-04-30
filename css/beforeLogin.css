@@ -33,6 +33,7 @@
 #middle img {
     width: 100%;
     opacity: 0.9;
+    position: relative;
 
 }
 
@@ -56,4 +57,15 @@
 
 #member a:hover{
     color: white;
+}
+
+#clock {
+    position: absolute;
+    top: 510px;
+    right: 640px;
+    color: white;
+    font-size: 60px;
+    opacity: 0.7;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }

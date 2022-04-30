@@ -1,5 +1,5 @@
 var clockTarget = document.getElementById("clock");
-  
+
 function clock() {
     var currentDate = new Date();
     var month = currentDate.getMonth();
@@ -9,11 +9,13 @@ function clock() {
     var hours = currentDate.getHours();
     var minutes = currentDate.getMinutes();
     var seconds = currentDate.getSeconds();
-    clockTarget.innerText = `${month+1}월 ${clockDate}일 ${week[day]}요일` +
-    `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes }`  : minutes }:${seconds < 10 ? `0${seconds }`  : seconds }`;
+    clockTarget.innerText = `${month+1}월 ${date}일 ${week[day]}요일\n` +
+        `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes }`  : minutes }:${seconds < 10 ? `0${seconds }`  : seconds }`;
 }
 
 function init() {
 clock();
 setInterval(clock, 1000);
 }
+
+init();
