@@ -1,0 +1,118 @@
+#nav{
+    text-align: center;
+}
+#nav ul{
+    list-style: none;
+    background-color: rgb(203, 189, 255);
+}
+
+#nav ul li{
+    display: inline-block;
+
+}
+
+#nav li{
+    padding: 20px 60px;
+
+
+}
+
+#nav a:link, #nav a:visited{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 19px;
+
+}
+
+#nav li:hover{
+    background-color: rgb(174, 124, 255);
+    color: white;
+}
+
+
+#member ul{
+    list-style: none;
+    color: black;
+    text-align: right;
+    background-color: rgb(241, 226, 255);
+}
+#member ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+#member a:link, #member a:visited{
+    font-size: 15px;
+    text-decoration: black;
+    color: black;
+}
+
+#member a:hover{
+    color: white;
+}
+
+#profile{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    margin: 0px 20px;
+}
+
+#content{
+    width: 1300px;
+    height: 900px;
+    border: 1px solid black;
+    float: left;
+}
+
+#content ul{
+    list-style: none;
+}
+
+#content li{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+#memberNm{
+    width: 220px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+#selectLang{
+    width: 220px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+#memberCertificate{
+    width: 220px;
+    height: 30px;
+    margin: 0px 10px;
+}
+
+.certificateDtl ul{
+    list-style: none;
+}
+
+.certificateDtl ul li{
+    display: inline-block;
+}
+
+.certificateDtl li{
+    margin: 0px 10px;
+}
+
+#certificateNm{
+    width: 220px;
+    height: 30px;
+}
+
+#certificateSc{
+    width: 220px;
+    height: 30px;
+}
