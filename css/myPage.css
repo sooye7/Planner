@@ -97,6 +97,7 @@
 
 .certificateDtl ul{
     list-style: none;
+    position: relative;
 }
 
 .certificateDtl ul li{
@@ -115,4 +116,80 @@
 #certificateSc{
     width: 220px;
     height: 30px;
+}
+
+#addBtn{
+    width: 50px;
+    height: 40px;
+    position: relative;
+    bottom: 48px;
+    left: 650px;
+    background-color: rgb(203, 189, 255);
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+
+}
+
+#saveBtn{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 500px;
+    top: 600px;
+    background-color: rgb(203, 189, 255);
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.introduction{
+    margin: 0px 10px;
+    position: relative;
+    top:450px;
+    right: 17px;
+}
+.introduction label{
+    font-size: 20px;
+}
+
+#introductionBox{
+    width: 300px;
+    height: 100px;
+    margin: 0px 10px;
+}
+
+#addProfileImgBtn{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 80px;
+    top: 250px;
+    background-color: rgb(203, 189, 255);
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+#saveProfileBtn{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 80px;
+    top: 650px;
+    background-color: rgb(203, 189, 255);
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+
+}
+
+#saveBtn:hover, #addBtn:hover, #addProfileImgBtn:hover, #saveProfileBtn:hover{
+    background-color: rgb(174, 124, 255);
 }

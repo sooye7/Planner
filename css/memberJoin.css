@@ -27,7 +27,7 @@ body{
 #joinBox input{
     width: 270px;
     height: 30px;
-    margin: 10px;
+    margin: 3px;
 }
 
 #joinBox input:hover{

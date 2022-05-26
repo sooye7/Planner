@@ -28,13 +28,19 @@
         </div>
         
         <div id="profile">
+            <button id="addProfileImgBtn">프로필이미지 추가</button>
+            <div class="introduction">
+                <label>소개<br></label>
+                <textarea cols="10" rows="50" id="introductionBox" placeholder="소개글입니다."></textarea>
+            </div>
 
+            <button id="saveProfileBtn">프로필 저장</button>
         </div>
         <div id="content">
             <ul id="memberInfo">
                 <li>
-                    <label>이름</label>
-                    <input type="text" name="memberName" id="memberNm" placeholder="이름">
+                    <label>닉네임</label>
+                    <input type="text" name="memberName" id="memberNm" placeholder="닉네임">
                 </li>
                 <li>
                     <label>언어</label>
@@ -67,14 +73,16 @@
                         <li>
                             <label>점수</label>
                             <input type="text" name="certificateScore" id="certificateSc" placeholder="자격증">
-                        </li>
-                        
+                        </li>   
                     </ul>
+                    
+                    <button id="addBtn">추가</button>
                 </div>
-                   
+                <button id="saveBtn">마이페이지 저장</button>
                 </li>
             </ul>
-
+ 
+    
         </div>
 
     </body>
